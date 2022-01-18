@@ -1,0 +1,98 @@
+*{margin:0;padding:0;}
+ul,li,ol{list-style: none;}
+img{display: block; max-width: 100%;}
+body{
+    overflow: hidden;
+    background-color: #676F7B;
+}
+
+section{
+    max-width: 1000px;
+    width: 100%;
+    height: 100vh;
+    margin:auto;
+    padding:2% 0;
+    background-color: #fff;
+}
+
+.ownerArea{
+    display: block;
+    width: 100%;
+    margin:auto;
+    text-align: center;
+}
+.ownerArea h1{
+    color:#183A67;
+    font-weight: bold;
+    font-style: italic;
+}
+.ownerSay{
+    z-index: 8;
+    padding:.3% 0 .5%;
+    color:#898E95;
+    font-size: 13px;
+}
+
+.mainarea{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+    margin-top:-2.5%;
+}
+
+.utaharaimg{
+    max-width: 30%;
+    width: 100%;
+    opacity: .5;
+}
+
+.utaharatxt{
+    position: absolute;
+    left:15%;
+    top:12%;
+    text-align: center;
+}
+.utaharatxt h2{
+    color:#183A67;
+    font-size:20px; padding-bottom:.5%;
+}
+
+.howher{
+    font-size: 14px;
+}
+.howher li{
+    line-height: 1.7;
+    padding-bottom:1%;
+}
+.howher li span{
+    color:#183A67;
+    font-weight: bold;
+}
+
+.want{
+    padding-top: 1%;
+    font-size: 13px;
+    line-height: 1.5;
+}
+
+@media screen and (max-width:1000px) {
+    body,section{background-color: transparent;}
+    .ownerArea{width:95%; padding-top:3%;}
+    .mainarea{justify-content: flex-end; margin-top:-15vw;}
+    .utaharatxt{
+        width: 95%;
+        top:20vw; left:50%;
+        transform: translate(-50%,0);
+    }
+    .utaharaimg{
+        max-width: 80vw;
+        z-index: -2;
+        opacity: .3;
+    }
+    .ownerSay,.want{font-size:1.3vw;}
+    .utaharatxt h2{font-size: 2vw;}
+    .howher{font-size: 1.4vw;}
+}
