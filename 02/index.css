@@ -92,7 +92,7 @@ section{
     .utaharaimg{
         max-width: 80vw;
         z-index: -2;
-        opacity: .3;
+        opacity: .15;
     }
     .ownerSay,.want{font-size:2vw;}
     .utaharatxt h2{font-size: 2.8vw;}
