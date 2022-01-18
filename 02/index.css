@@ -82,11 +82,11 @@ section{
 
 @media screen and (max-width:1000px) {
     body,section{background-color: transparent;}
-    .ownerArea{width:95%; padding-top:3%;}
-    .mainarea{justify-content: flex-end; margin-top:-15vw;}
+    .ownerArea{width:95%; padding-top:10%;}
+    .mainarea{justify-content: flex-end; margin-top:-25vw;}
     .utaharatxt{
         width: 95%;
-        top:20vw; left:50%;
+        top:30vw; left:50%;
         transform: translate(-50%,0);
     }
     .utaharaimg{
