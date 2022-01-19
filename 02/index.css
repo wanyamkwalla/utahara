@@ -80,6 +80,8 @@ section{
     line-height: 1.5;
 }
 
+.succeed{text-decoration:line-through;}
+
 @media screen and (max-width:1000px) {
     body,section{background-color: transparent;}
     .ownerArea{width:95%; padding-top:10%;}
