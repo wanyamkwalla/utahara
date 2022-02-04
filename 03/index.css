@@ -62,7 +62,8 @@ details,summary{transition: .5s;}
 
 
 @media screen and (max-width:1000px){
-    body{font-style: 1.3vw;}
+    p{font-style: 1.3vw;}
+    span{font-style: 1.2vw;}
     .main p{margin-top:5.5556%;}
     .main p.mt0{margin-top:0%;}
     .main p.mt5{margin-top:8.3335%;}
