@@ -49,5 +49,9 @@ details,summary{transition: .5s;}
 
 
 @media screen and (max-width:1000px){
-    body{font-style: 1.4vw;}
+    body{font-style: 1.3vw;}
+    .main p{margin-top:4%;}
+    .main p.mt0{margin-top:0%;}
+    .main p.mt5{margin-top:8%;}
+    .main p.mt8{margin-top:12%;}
 }
