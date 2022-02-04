@@ -30,10 +30,10 @@ section{
     width: 95%; margin:auto;
     padding-top:4%;
 }
-.main p{margin-top:2%;}
-.main p.mt0{margin-top:0%;}
-.main p.mt5{margin-top:5%;}
-.main p.mt8{margin-top:8%;}
+.main p{margin-top:20px;}
+.main p.mt0{margin-top:0px;}
+.main p.mt5{margin-top:50px;}
+.main p.mt8{margin-top:75px;}
 .txtC{text-align: center;}
 .txtI{font-style: italic;}
 .fwB{font-weight: bold;}
@@ -50,8 +50,8 @@ details,summary{transition: .5s;}
 
 @media screen and (max-width:1000px){
     body{font-style: 1.3vw;}
-    .main p{margin-top:4%;}
+    .main p{margin-top:5.5556%;}
     .main p.mt0{margin-top:0%;}
-    .main p.mt5{margin-top:8%;}
-    .main p.mt8{margin-top:12%;}
+    .main p.mt5{margin-top:8.3335%;}
+    .main p.mt8{margin-top:13.3335%;}
 }
