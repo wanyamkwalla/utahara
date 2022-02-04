@@ -11,11 +11,14 @@ section{
     max-width: 1000px;
     width: 100%;
     margin:auto;
-    padding-top:3vw;
+    padding-top:3%;
     background-color: #fff;
     color:#424850;
 }
-.video{padding-bottom:4vw; text-align: center;}
+.video{
+    width: 50%; margin:0 auto;
+    padding-bottom:4%; text-align: center;
+}
 
 .main{
     width: 90%; margin:0 auto;
@@ -25,12 +28,12 @@ section{
 .imgArea{
     max-width: 600px; 
     width: 95%; margin:auto;
-    padding-top:4vw;
+    padding-top:4%;
 }
-.main p{margin-top:2vw;}
+.main p{margin-top:2%;}
 .main p.mt0{margin-top:0%;}
-.main p.mt5{margin-top:5vw;}
-.main p.mt8{margin-top:8vw;}
+.main p.mt5{margin-top:5%;}
+.main p.mt8{margin-top:8%;}
 .txtC{text-align: center;}
 .txtI{font-style: italic;}
 .fwB{font-weight: bold;}
@@ -38,8 +41,13 @@ section{
 .owner{
     display: inline-block;
     width: 95%; margin:auto;
-    padding:5vw 2vw 5vw 0;
+    padding:5% 2% 5% 0;
     color:#c1c1ce;
     text-align: right;
 }
 details,summary{transition: .5s;}
+
+
+@media screen and (max-width:1000px){
+    body{font-style: 1.4vw;}
+}
