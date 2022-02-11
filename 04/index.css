@@ -17,15 +17,19 @@ div{
     cursor: pointer;
     display:flex;
     justify-content: flex-end;
-    margin:5% 2% 5% 0;
+    margin:0 auto;
+    padding:2.5% 0;
     color:#c1c1ce;
     text-align: right;
+}
+.btnArea{
+    padding-bottom:2.5%;
 }
 .topBtn{
     cursor: pointer;
     width: 0px;
     height: 0px;
-    margin:2.5% auto;
+    margin:0 auto;
     border-top: 25px solid none;
     border-left: 25px solid transparent;
     border-right: 25px solid transparent;
