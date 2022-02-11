@@ -4,12 +4,13 @@ ul,li,ol{list-style: none;}
 img{display: block; max-width: 100%;}
 body{
     font-family: 'Noto Sans KR',sans-serif;
-    background-color: #676F7B;
+    background-color: #000;
 }
 
 div{
     max-width: 1000px;
     width: 100%;
+    margin:auto;
     background-color: #fff;
 }
 
@@ -22,6 +23,9 @@ div{
     color:#c1c1ce;
     text-align: right;
 }
+details {
+    margin-right: 2%;
+}
 .btnArea{
     padding-bottom:2.5%;
 }
@@ -33,7 +37,7 @@ div{
     border-top: 25px solid none;
     border-left: 25px solid transparent;
     border-right: 25px solid transparent;
-    border-bottom: 25px solid #676F7B;
+    border-bottom: 25px solid #000;
 }
 
 
@@ -47,6 +51,6 @@ div{
         border-top: 4vw solid none;
         border-left: 4vw solid transparent;
         border-right: 4vw solid transparent;
-        border-bottom: 4vw solid #676F7B;
+        border-bottom: 4vw solid #000;
     }
 }
