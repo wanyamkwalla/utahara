@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+*{margin:0;padding:0;}
+img{display: block; max-width: 100%;}
+body{
+    font-family: 'Noto Sans KR',sans-serif;
+    background-color: rgb(103, 111, 123);
+}
+
+main{
+    max-width: 1000px;
+    width: 100%;
+    margin:auto;
+    padding:2% 0;
+    line-height: 1.5;
+    background-color: #fff;
+}
+
+div.main{
+    width:90%;
+    margin:auto;
+}
+.main > p{
+    padding-bottom:15px;
+}
+
+h2{
+    display: inline-block;
+    background-color: rgba(103,111,123,.5);
+}
+
+.utahara p{padding-bottom:12px;}
+ol{
+    padding-left: 1em;
+}
+.end{text-decoration:line-through;}
+.utahara h3{padding-top:15px;}
+
+.owner{padding:15px 0 ;}
+.btnArea{
+    padding:2.5% 0;
+}
+.topBtn{
+    cursor: pointer;
+    width: 0px;
+    height: 0px;
+    margin:0 auto;
+    border-top: 25px solid none;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    border-bottom: 25px solid #676F7B;
+}
+
+
+@media screen and (max-width:1000px){
+    body{font-size: 2vw;}
+    .topBtn{
+        width: 0px;
+        height: 0px;
+        margin:auto;
+        padding:5% 0;
+        border-top: 4vw solid none;
+        border-left: 4vw solid transparent;
+        border-right: 4vw solid transparent;
+        border-bottom: 4vw solid #676F7B;
+    }
+}
