@@ -14,8 +14,20 @@ div{
     background-color: #fff;
 }
 
-.btnArea{
+.owner{
+    cursor: pointer;
+    display:flex;
+    justify-content: flex-end;
+    margin:0 auto;
     padding:2.5% 0;
+    color:#c1c1ce;
+    text-align: right;
+}
+details {
+    margin-right: 2%;
+}
+.btnArea{
+    padding-bottom:2.5%;
 }
 .topBtn{
     cursor: pointer;
